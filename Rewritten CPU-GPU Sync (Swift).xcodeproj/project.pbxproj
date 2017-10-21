@@ -53,14 +53,22 @@
 		BDDBC3DE1F9BB078008DB1C0 /* Rewritten CPU-GPU Sync (Swift) */ = {
 			isa = PBXGroup;
 			children = (
-				BDDBC3DF1F9BB078008DB1C0 /* AppDelegate.swift */,
+				BDDBC3EF1F9BB0A0008DB1C0 /* Other */,
 				BDDBC3E11F9BB078008DB1C0 /* ViewController.swift */,
-				BDDBC3E31F9BB078008DB1C0 /* Assets.xcassets */,
 				BDDBC3E51F9BB078008DB1C0 /* Main.storyboard */,
-				BDDBC3E81F9BB078008DB1C0 /* Info.plist */,
-				BDDBC3E91F9BB078008DB1C0 /* Rewritten_CPU_GPU_Sync__Swift_.entitlements */,
 			);
 			path = "Rewritten CPU-GPU Sync (Swift)";
+			sourceTree = "<group>";
+		};
+		BDDBC3EF1F9BB0A0008DB1C0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBC3E91F9BB078008DB1C0 /* Rewritten_CPU_GPU_Sync__Swift_.entitlements */,
+				BDDBC3E81F9BB078008DB1C0 /* Info.plist */,
+				BDDBC3E31F9BB078008DB1C0 /* Assets.xcassets */,
+				BDDBC3DF1F9BB078008DB1C0 /* AppDelegate.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,11 +271,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Rewritten CPU-GPU Sync (Swift)/Rewritten_CPU_GPU_Sync__Swift_.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Rewritten CPU-GPU Sync (Swift)/Other/Rewritten_CPU_GPU_Sync__Swift_.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
-				INFOPLIST_FILE = "Rewritten CPU-GPU Sync (Swift)/Info.plist";
+				INFOPLIST_FILE = "Rewritten CPU-GPU Sync (Swift)/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "flophouseattrocities.Rewritten-CPU-GPU-Sync--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,11 +287,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Rewritten CPU-GPU Sync (Swift)/Rewritten_CPU_GPU_Sync__Swift_.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Rewritten CPU-GPU Sync (Swift)/Other/Rewritten_CPU_GPU_Sync__Swift_.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
-				INFOPLIST_FILE = "Rewritten CPU-GPU Sync (Swift)/Info.plist";
+				INFOPLIST_FILE = "Rewritten CPU-GPU Sync (Swift)/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "flophouseattrocities.Rewritten-CPU-GPU-Sync--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
